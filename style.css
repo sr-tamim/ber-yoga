@@ -1,0 +1,13 @@
+
+
+
+
+body{
+    background: url(img/HEADER.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header-text{
+    padding: 50px 20px;
+}
