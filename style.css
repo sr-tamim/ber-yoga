@@ -13,9 +13,15 @@ body{
 }
 
 #services{
-    background: url('img/flower.png'), url('img/Vector\ Smart\ Object.png');
+    background: url('img/flower.png'), url('img/abstract-1.png');
     background-repeat: no-repeat, no-repeat;
     background-position: left bottom, right top;
+}
+#blogs{
+    background: url('img/abstract-2.png'), url('img/flower2.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+    background-position-y: 10%, 90%;
 }
 
 @media screen and (min-width: 1200px) {
