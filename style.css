@@ -12,6 +12,12 @@ body{
     padding: 50px 20px;
 }
 
+#services{
+    background: url('img/flower.png'), url('img/Vector\ Smart\ Object.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, right top;
+}
+
 @media screen and (min-width: 1200px) {
     .header-text h1{ font-size: 50px !important; }
     .header-text p{ font-size: 20px !important;}
