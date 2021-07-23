@@ -1,17 +1,28 @@
 
+@font-face {
+    font-family: 'trebuc';
+    src: url(fonts/trebuc.ttf);
+}
 
-
-
+/* add background of body */
 body{
     background: url(img/HEADER.png), url(img/FOOTER.png);
     background-position: top, bottom;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, contain;
+    font-family: trebuc, serif;
 }
+
+/* background of nav toggle icon */
+.navbar-toggler{
+    background: radial-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+
 .header-text{
     padding: 50px 20px;
 }
 
+/* add backgrounds of sections */
 #services{
     background: url(img/flower.png), url(img/abstract-1.png);
     background-repeat: no-repeat, no-repeat;
@@ -28,6 +39,7 @@ footer a{
     text-decoration: none;
 }
 
+/* added responsiveness */
 @media screen and (min-width: 1200px) {
     .header-text h1{ font-size: 50px !important; }
     .header-text p{ font-size: 20px !important;}
